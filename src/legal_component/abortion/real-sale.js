@@ -69,7 +69,7 @@ function Rental() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/print_info_sale', {date,month,year,vendorname,vendorfathername,
+      const response = await axios.post('https://legal-document-backend-2.onrender.com/print_info_sale', {date,month,year,vendorname,vendorfathername,
       vendorreligion,vendorage,vendoraddress,vendoraadharnumber,vendorpannumber,purchasername,
       purchaserfathername,purchaserreligion,purchaserage,purchaseraddress,purchaseraadharnumber,
       purchaserpannumber,propertydetails,ownerloanaccountnumber,loansumnumbers,loansumwords,
