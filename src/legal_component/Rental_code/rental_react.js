@@ -50,7 +50,7 @@ function Rental() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/print_info', {city,state,
+      const response = await axios.post('https://legal-document-backend-2.onrender.com/print_info', {city,state,
         date,landlordname,landlordaddress1,lordaddressline2,lordcity,lordstate,lordpincode,
         tenantname,tenantaddress1,tenantaddressline2,tencity,tenstate,tenpincode,leasepropertyaddress1,
         leaseaddressline2,leasecity,leasestate,leasepincode,category,xbedrooms,xbathrooms,xcarparks,
