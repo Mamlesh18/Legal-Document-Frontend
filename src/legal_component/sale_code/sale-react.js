@@ -46,7 +46,7 @@ function Rental() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/print_info_divorce', {pet1name,pet1age,pet1occupation,pet1address,
+      const response = await axios.post('https://legal-document-backend-2.onrender.com/print_info_divorce', {pet1name,pet1age,pet1occupation,pet1address,
       pet1mobileNo,pet1emailid,pet2name,pet2age,pet2occupation,pet2address,pet2mobileNo,
       pet2emailid,marriedplace,marrieddate,religion,registarplace,pet1premarstatus,pet2premarstatus,
       noofchildren,childname,childage,childdob,childcustody,section,act,caseno,idproof,marriageproof,
