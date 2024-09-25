@@ -20,7 +20,7 @@ function App() {
   
     try {
       // Send the message to the backend
-      const res = await axios.post('http://localhost:5000/predict', { message });
+      const res = await axios.post('https://legal-document-backend-2.onrender.com/predict', { message });
   
       // Add the received message to the messages array
       setMessages(prevMessages => [...prevMessages, { text: res.data.response, type: 'received' }]); 
