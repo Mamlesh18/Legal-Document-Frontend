@@ -12,8 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<DummyMains />} />3
-        <Route path="/main_react" element={<Mains />} />
+        <Route path="/" element={<Mains />} />
         <Route path="/rental_react" element={<Rental />} />
         <Route path="/login_react" element={<Login />} />
         <Route path="/signup_react" element={<Signup />} />
