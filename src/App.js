@@ -15,9 +15,9 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<DummyMains/>} />
+    
 
-        <Route path="/main_react" element={<Mains />} />
+        <Route path="/" element={<Mains />} />
         <Route path="/rental_react" element={<Rental />} />
         <Route path="/sale-react" element={<Sales />} />
         <Route path="/real-ado-react" element={<Adoption />} />
